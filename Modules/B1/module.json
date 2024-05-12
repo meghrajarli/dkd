@@ -1,0 +1,11 @@
+{
+    "name": "B1",
+    "alias": "b1",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\B1\\App\\Providers\\B1ServiceProvider"
+    ],
+    "files": []
+}

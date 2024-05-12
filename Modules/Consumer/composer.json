@@ -1,0 +1,31 @@
+{
+    "name": "nwidart/consumer",
+    "description": "",
+    "authors": [
+        {
+            "name": "Nicolas Widart",
+            "email": "n.widart@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Consumer\\": "",
+            "Modules\\Consumer\\App\\": "app/",
+            "Modules\\Consumer\\Database\\Factories\\": "database/factories/",
+            "Modules\\Consumer\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\Consumer\\Tests\\": "tests/"
+        }
+    }
+}
